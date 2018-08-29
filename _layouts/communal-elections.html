@@ -3,7 +3,12 @@ layout: blank-article
 ---
 
 <div class="c-corner-ribbon-container">
+  {% assign candidates = page %}
+  {% comment %}
+
   {% assign candidates = site.candidatelists | where: "uid", page.candidateListUid | first %}
+  {% endcomment %}
+
   {% assign programCategories = site.program | where: "campaignCategoryUid", page.campaignCategoryUid | sort:"order" %}
 
   {% capture headline %}{{ page.title }}{% if candidates.number %}<span class="t-subheader u-1margin--left">&raquo; volte č. {{ candidates.number }} &laquo;</span>{% endif %}{% endcapture %}
@@ -90,4 +95,3 @@ layout: blank-article
     </div>
   </div>
 </div>
-

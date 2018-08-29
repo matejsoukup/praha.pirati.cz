@@ -2,12 +2,11 @@
 title: Kandidátka na radnici Prahy 11
 uid: praha-11
 # number: 8 odkomentujte prosím až bude zveřejněno
-leader: 
+leader:
   uid: jiri.dohnal
   age: 41
   profession: zastupitel MČ Praha 11 a člen Koalice Trojmezí
-  description: "Po střední škole 2 roky studoval na Technické fakultě České zemědělské univerzity a od roku 1999 začal pracovat na Ministerstvu zahraničí ČR. V letech 2001 až 2005  pobýval pracovně v Hanoji na Velvyslanectví ČR ve Vietnamu. Od roku 2014 je zastupitelem městské části Praha 11 a od roku 2017 je členem Pirátské strany.
-"
+  description: "Po střední škole 2 roky studoval na Technické fakultě České zemědělské univerzity a od roku 1999 začal pracovat na Ministerstvu zahraničí ČR. V letech 2001 až 2005  pobýval pracovně v Hanoji na Velvyslanectví ČR ve Vietnamu. Od roku 2014 je zastupitelem městské části Praha 11 a od roku 2017 je členem Pirátské strany."
 
 head: # čelo kandidátky (bez leadera) / lidé kteří mají fotku a _people/jmeno.md
   - uid: zuzana.ujhelyiova
@@ -22,7 +21,6 @@ head: # čelo kandidátky (bez leadera) / lidé kteří mají fotku a _people/jm
 tail: # zbytek kandidatky
       # jedinná povinná položka je name zbytek můžete vynechat
       # věk se uvádí k poslednímu dni voleb
-     party: Piráti
    - name: Michal Kovařík
      age: 30
      profession: nakladatelský pracovník a publicista
@@ -147,7 +145,7 @@ tail: # zbytek kandidatky
      age: 34
      profession: IT specialista
      party: Bez politické příslušnosti
-   - name: Filip Ujhelyi 
+   - name: Filip Ujhelyi
      age: 34
      profession: Linux administrátor
      party: Bez politické příslušnosti
